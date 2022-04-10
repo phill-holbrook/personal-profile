@@ -1,0 +1,53 @@
+baseURL = "https://holbrook.cc/"
+languageCode = "en-us"
+title = "Phill Holbrook | Infrastructure Engineer"
+#theme = "hugo-coder"
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "Phill Holbrook"
+  info = "Infrastructure Engineer"
+  keywords = "blog,devops,infrastructure,dayton,personal"
+  avatarURL = "images/avatar.jpg"
+  dateFormat = "January 2, 2006"
+  since = 2022
+  colorScheme = "auto"
+  hideColorSchemeToggle = false
+  maxSeeAlsoItems = 5
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Socials
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-2x fa-github"
+  weight = 1
+  url = "https://github.com/phill-holbrook/"
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-2x fa-linkedin"
+  weight = 4
+  url = "https://www.linkedin.com/in/phillholbrook"
+
+# Menu
+[[menu.main]]
+  name = "About"
+  weight = 1
+  url = "about/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
+  url = "posts/"
+
+[module]
+[[module.imports]]
+ path = 'github.com/luizdepra/hugo-coder'
