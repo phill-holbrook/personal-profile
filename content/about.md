@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2022-04-09T19:07:49-04:00
-draft: true
+draft: false
 ---
 Hi! I'm Phill. I'm an experienced IT professional interested in automation, scripting, and DevOps. I built this site to demonstrate skills I've learned through home labbing and independent study, inspired by the [Cloud Resume Challenge](https://cloudresumechallenge.dev/docs/the-challenge/aws/). This is actually Version 2 of the site. For version 1, [see here](https://phill.holbrook.cc/). Version 2, as you see here, is built using [Hugo](https://gohugo.io/).
 
