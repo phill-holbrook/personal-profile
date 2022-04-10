@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Phill Holbrook | Infrastructure Engineer"
 #theme = "hugo-coder"
 paginate = 20
-
+publishDir = "/var/www/html"
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
