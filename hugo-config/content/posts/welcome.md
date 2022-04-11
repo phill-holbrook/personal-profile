@@ -5,8 +5,8 @@ title = "Welcome!"
 description = ""
 slug = ""
 authors = []
-tags = [Welcome,Blog]
-categories = [General]
+tags = []
+categories = []
 externalLink = ""
 series = []
 +++
