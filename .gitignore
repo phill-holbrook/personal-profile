@@ -246,3 +246,5 @@ $RECYCLE.BIN/
 # Hugo Public Directory
 public/
 public/*
+hugo-config/public/
+hugo-config/public/*

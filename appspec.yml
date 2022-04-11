@@ -1,23 +1,23 @@
 version: 0.0
 os: linux
 files:
-  - source: .
+  - source: ./hugo-config/.
     destination: /git/personal-profile
 hooks:
   AfterInstall:
-    - location: build-website.sh
+    - location: deployment-scripts/build-website.sh
       timeout: 300
       runas: root
   ApplicationStart:
-    - location: start-website.sh
+    - location: deployment-scripts/start-website.sh
       timeout: 30
       runas: root
   ApplicationStop:
-    - location: stop-website.sh
+    - location: deployment-scripts/stop-website.sh
       timeout: 60
       runas: root
   ValidateService:
-    - location: validate-website.sh
+    - location: deployment-scripts/validate-website.sh
       timeout: 30
       runas: root
       
