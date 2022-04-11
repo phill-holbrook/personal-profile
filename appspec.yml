@@ -1,0 +1,19 @@
+version: 0.0
+os: linux
+files:
+  - source: .
+    destination: /git/personal-profile
+hooks:
+  AfterInstall:
+    - location: build-website.sh
+      timeout: 300
+      runas: root
+  ApplicationStart:
+    - location: start-website.sh
+      timeout: 30
+      runas: root
+  ApplicationStop:
+    - location: stop-website.sh
+      timeout: 60
+      runas: root
+      
