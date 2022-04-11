@@ -16,4 +16,8 @@ hooks:
     - location: stop-website.sh
       timeout: 60
       runas: root
+  ValidateService:
+    - location: validate-website.sh
+      timeout: 30
+      runas: root
       
